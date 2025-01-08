@@ -1,18 +1,29 @@
-# PacketCapture
+# **PacketCapture**
 
-PacketCapture is a Java-based application that captures and analyzes network packets using the power of Tshark, a command-line interface for Wireshark. This project integrates the functionality of Java with Tshark to process network data efficiently.
+**PacketCapture** is a Java-based application that captures and analyzes network packets using **Tshark**, the command-line interface for **Wireshark**. This project seamlessly integrates Java and Tshark, offering an efficient solution for real-time network packet analysis.
 
-## Features
+## 📚 **Features**
 
--   Captures network packets in real-time.
--   Analyzes captured packets using Tshark.
--   Provides a command-line interface for interaction.
--   Modular design for easy enhancement and integration.
+-   📡 **Real-Time Packet Capture:** Capture network packets as they are transmitted.
+-   🛠️ **Packet Analysis with Tshark:** Leverage Tshark's powerful analysis tools.
+-   💻 **Command-Line Interface (CLI):** Intuitive interface for configuration and usage.
+-   📦 **Modular Design:** Easily extend and integrate new features.
 
-## Requirements
+## ⚙️ **Requirements**
 
--   Java 11 or higher
--   Tshark installed on your system (Ensure it is added to your PATH).
--   Gradle for building and managing dependencies.
+-   **Java 11** or higher
+-   **Tshark** (Ensure it's installed and added to your system's PATH)
+-   **Gradle** for dependency management and builds
 
-## Project Structure
+## 🚀 **Setup and Usage**
+
+### **1. Clone the Repository, Install Dependencies, Build, Configure Tshark, Run, and Test the Application**
+
+```bash
+git clone <repository_url>
+cd PacketCapture
+gradle build
+tshark -v
+gradle run
+gradle test
+```
