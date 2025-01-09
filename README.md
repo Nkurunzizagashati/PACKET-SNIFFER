@@ -1,6 +1,6 @@
-# **PacketCapture**
+# **PacketSniffer**
 
-**PacketCapture** is a Java-based application that captures and analyzes network packets using **Tshark**, the command-line interface for **Wireshark**. This project seamlessly integrates Java and Tshark, offering an efficient solution for real-time network packet analysis.
+**PacketSniffer** is a Java-based application that captures and analyzes network packets using **Tshark**, the command-line interface for **Wireshark**. This project seamlessly integrates Java and Tshark, offering an efficient solution for real-time network packet analysis.
 
 ## 📚 **Features**
 
@@ -20,10 +20,9 @@
 ### **1. Clone the Repository, Install Dependencies, Build, Configure Tshark, Run, and Test the Application**
 
 ```bash
-git clone <repository_url>
+git clone https://github.com/Nkurunzizagashati/PACKET-SNIFFER.git
 cd PacketCapture
 gradle build
 tshark -v
 gradle run
-gradle test
 ```
